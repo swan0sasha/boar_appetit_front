@@ -1,0 +1,30 @@
+.main-user-info-container{
+    display: flex;
+    justify-content: row;
+    margin-right: 28px;
+}
+.user-info-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 8px;
+}
+.username-text{
+    color: var(--Walter-White, #FFF);
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+.login-to-text{
+    color: var(--Walter-White, #FFF);
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
