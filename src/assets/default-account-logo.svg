@@ -1,0 +1,20 @@
+<svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Account logo">
+<mask id="mask0_6_334" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="54" height="54">
+<circle id="Ellipse 2" cx="27" cy="27" r="27" fill="white"/>
+</mask>
+<g mask="url(#mask0_6_334)">
+<circle id="Background" cx="27" cy="27" r="27" fill="#E7E7E7"/>
+<rect id="Body" x="7.53491" y="33.907" width="38.9302" height="32.6512" rx="16.3256" fill="#F2B298"/>
+<circle id="Head" cx="26.3721" cy="21.3489" r="10.0465" fill="#F2B298"/>
+<g id="Mouth">
+<path d="M35.1627 32.6512H28.8837V18.8372H35.1627V32.6512Z" fill="#F2B298"/>
+<path d="M35.1627 32.6512H28.8837V30.5259C28.8837 28.1785 30.2893 26.2755 32.0232 26.2755H35.1627V32.6512Z" fill="#E7E7E7"/>
+</g>
+<g id="Hair">
+<path d="M26.3721 3.76746H16.3256V20.093H26.3721V3.76746Z" fill="#F2B298"/>
+<path d="M26.3721 3.76746H16.3256V6.27908C16.3256 9.05335 18.5746 11.3023 21.3488 11.3023H26.3721V3.76746Z" fill="#E7E7E7"/>
+</g>
+</g>
+</g>
+</svg>
