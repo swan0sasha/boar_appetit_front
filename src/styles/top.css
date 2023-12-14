@@ -6,6 +6,15 @@
     align-items: center;
     background: var(--Darker-Carrot, #7A3108);
 }
+
+.top-recipe-container{
+    width: 100vw;
+    height: 148px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--Darker-Carrot, #7A3108);
+}
 .input-search-recipes{
     margin: 0;
     padding: 0;
@@ -53,9 +62,31 @@
 }
 .suggest-button:active{
     border: 5px dashed var(--Carrot, #D7560D);
-    background: none;
-    background-image: url('../assets/pen-carrot.svg');
-    background-position: 20px center; 
-    background-repeat: no-repeat;
+    background: url('../assets/pen-carrot.svg') no-repeat 20px center;
     padding-left: 65px;
+}
+
+.go-back-button{
+    width: 248px;
+    height: 56px;
+    margin-left: 29px;
+    margin-right: 80px;
+    border-radius: 30px;
+    border: none;
+    background: transparent url('../assets/arrow-left.svg') no-repeat left;
+    color: var(--Walter-White, #FFF);
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.go-back-button:active{
+    background: transparent url('../assets/carrot-arrow-left.svg') no-repeat left;
+    font-family: Arial;
+    color: var(--Carrot, #D7560D);
 }
