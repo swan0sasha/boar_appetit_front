@@ -1,6 +1,6 @@
 import React from 'react'
 import TopAccountInfo from '../../TopAccountInfo'
-import '../../../styles/top.css'
+import '../../../styles/recipe/recipe-page-top.css'
 
 function RecipeTop() {
     return (

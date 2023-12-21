@@ -1,7 +1,8 @@
-.central-flags-container{
+@import "../style-guide.css";
+.main-central-container{
     display: flex;
     justify-content: space-between;
-
+    background-color: var(--white-lake);
 }
 /* .flags-container{
     width: 13vw;

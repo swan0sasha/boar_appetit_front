@@ -1,0 +1,35 @@
+.top-recipe-container {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background: var(--header);
+}
+
+.go-back-button {
+    width: 248px;
+    height: 56px;
+    margin-left: 29px;
+    margin-right: 80px;
+    border-radius: 30px;
+    border: none;
+    background: transparent url('../../assets/arrow-left.svg') no-repeat left;
+    color: var(--white-lake);
+    font-family: Arial, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.go-back-button:active {
+    background: transparent url('../../assets/carrot-arrow-left.svg') no-repeat left;
+    font-family: Arial, serif;
+    color: var(--carrot);
+}

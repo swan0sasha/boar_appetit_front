@@ -1,12 +1,14 @@
+@import "../style-guide.css";
 .central-panel-container{
     display: flex;
-    width: 82vw;
-    height: 80vh;
-    background: var(--Walter-White, #FFF);
-    margin-top: 30px;
-    margin-left: 17px;
+    width: 80%;
+    /*height: 80vh;*/
+    background: var(--white-lake);
+    /*margin-top: 30px;*/
+    /*margin-left: 17px;*/
     flex-direction: column;
-    padding-left: 24px;
+    /*padding-left: 24px;*/
+    padding: 2%;
 }
 .search-recipes-text{
     position: relative;
@@ -23,4 +25,7 @@
 .found-recipes-container{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: max-content;
+    padding-left: 2%;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import '../../../../styles/recipe/main-description.css'
+import '../../../../styles/recipe/recipe-main-description.css'
 import "../../../../styles/stars.css"
 import "../../../../styles/fonts.css"
 

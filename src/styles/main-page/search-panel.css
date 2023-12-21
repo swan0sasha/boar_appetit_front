@@ -1,5 +1,5 @@
-@import "style-guide.css";
-.serch-panel-container{
+@import "../style-guide.css";
+.search-panel-container{
     /* height: 300px; */
     width: 96%;
     border-radius: 8px;
@@ -10,11 +10,24 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 8px 42px 8px 12px;
+    padding: 2%;
     /* box-sizing: border-box; */
 }
+.input-container{
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+}
+
+.search-panel-text-container{
+    display: flex;
+    width: 12%;
+    flex-shrink: 0;
+}
+
 .search-panel-text{
-    color: var(--Asphalt, #3E3E3E);
+    color: var(--asphalt);
     font-family: Roboto, monospace;
     font-size: 20px;
     font-style: normal;
@@ -22,9 +35,9 @@
     line-height: normal;
 }
 .search-button-container{
-    margin-top: 8px;
     justify-content: space-between;
     display: flex;
+    margin-top: 1%;
 }
 .search-button{
     width: 248px;
@@ -48,7 +61,7 @@
     justify-content: center;
 }
 .checkbox-text{
-    color: var(--Asphalt, #3E3E3E);
+    color: var(--asphalt);
     align-self: center;
     font-family: Roboto, monospace;
     font-size: 20px;
@@ -101,11 +114,11 @@
   }
 .check-box-container .checkmark:after {
     left: 11px;
-    top: 0px;
+    top: 0;
     bottom: 4px;
     width: 14px;
     height: 28px;
-    border: solid white;
+    border: var(--white-lake);
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);

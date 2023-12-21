@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../styles/search-panel.css"
+import "../../../../styles/main-page/search-panel.css"
 
 function Checkbox() {
 

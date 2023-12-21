@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import "../styles/InputIngredients.css"
+import "../../../../styles/main-page/InputIngredients.css"
+import "../../../../styles/fonts.css"
 
 function InputIngredients() {
     const [tags, setTags] = useState([])
@@ -24,7 +25,7 @@ function InputIngredients() {
                     <span className="close" onClick={() => removeTag(index)}>&times;</span>
                 </div>
             )) }
-            <input onKeyDown={handleKeyDown} type="text" className="tags-input" />
+            <input onKeyDown={handleKeyDown} type="text" className="tags-input shy-guy" />
         </div>
     )
 }
