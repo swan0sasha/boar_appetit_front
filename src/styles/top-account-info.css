@@ -1,4 +1,5 @@
 .main-user-info-container{
+    height: 100%;
     display: flex;
     justify-content: row;
     margin-right: 28px;

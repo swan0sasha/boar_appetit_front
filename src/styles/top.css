@@ -1,6 +1,7 @@
 .top-container{
     width: 100vw;
-    height: 148px;
+    height: 14.4vh;
+    min-height: 58px;
     display: flex;
     justify-content: end;
     align-items: center;

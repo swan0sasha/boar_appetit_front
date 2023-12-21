@@ -1,0 +1,23 @@
+.serch-panel-container{
+    height: 39vh;
+    width: 96%;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: #D9D9D9;
+    position: relative;
+    top: 44px; 
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 42px 18px 49px;
+    box-sizing: border-box;
+}
+.search-panel-text{
+    color: var(--Asphalt, #3E3E3E);
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
