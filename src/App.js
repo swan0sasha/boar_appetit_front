@@ -1,3 +1,4 @@
+import CentralPanel from "./components/CentralPanel";
 import Top from "./components/Top";
 import {Routes, Route, Link} from 'react-router-dom'
 import {RecipePage} from './pages/RecipePage'
