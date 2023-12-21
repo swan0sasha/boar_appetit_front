@@ -1,3 +1,4 @@
+@import "style-guide.css";
 .top-container{
     width: 100vw;
     height: 14.4vh;
@@ -5,31 +6,41 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    background: var(--Darker-Carrot, #7A3108);
+    background: var(--header);
+}
+
+.top-recipe-container{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background: var(--header);
 }
 .input-search-recipes{
     margin: 0;
-    padding: 0;
     height: 52.8px;
     width: 48%;
     max-width: 930px;
     outline: none;
     border-radius: 25px;
-    border: 2px solid var(--Asphalt, #3E3E3E);
-    background: var(--Walter-White, #FFF);
-    font-family: Arial;
-    color: var(--Asphalt, #3E3E3E);
+    border: 2px solid var(--asphalt);
+    background: var(--white-lake);
+    font-family: Arial, serif;
+    color: var(--asphalt);
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 0px 20px;
+    padding: 0 20px;
 }
 .input-search-recipes::placeholder{
-    color: var(--Light-Gray, #C5BFBF);
+    color: var(--frame-color);
 }
 .input-search-recipes:focus{
-    border: 2px solid var(--Light-Blue-Sky, #00C1FE);
+    border: 2px solid var(--light-blue-sky);
 }
 .suggest-button{
     width: 248px;
@@ -38,12 +49,12 @@
     margin-right: 80px;
     border-radius: 30px;
     border: none;
-    background: var(--Carrot, #D7560D);
+    background: var(--carrot);
     background-image: url('../assets/pen-white.svg');
     background-position: 25px center; 
     background-repeat: no-repeat;
-    color: var(--Walter-White, #FFF);
-    font-family: Arial;
+    color: var(--white-lake);
+    font-family: Arial, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -53,10 +64,32 @@
     align-items: center;
 }
 .suggest-button:active{
-    border: 5px dashed var(--Carrot, #D7560D);
-    background: none;
-    background-image: url('../assets/pen-carrot.svg');
-    background-position: 20px center; 
-    background-repeat: no-repeat;
+    border: 5px dashed var(--carrot);
+    background: url('../assets/pen-carrot.svg') no-repeat 20px center;
     padding-left: 65px;
+}
+
+.go-back-button{
+    width: 248px;
+    height: 56px;
+    margin-left: 29px;
+    margin-right: 80px;
+    border-radius: 30px;
+    border: none;
+    background: transparent url('../assets/arrow-left.svg') no-repeat left;
+    color: var(--white-lake);
+    font-family: Arial, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.go-back-button:active{
+    background: transparent url('../assets/carrot-arrow-left.svg') no-repeat left;
+    font-family: Arial, serif;
+    color: var(--carrot);
 }

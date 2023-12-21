@@ -1,0 +1,15 @@
+:root {
+    --asphalt: rgba(62, 62, 62, 1);
+    --carrot: rgba(215, 86, 13, 1);
+    --celery-green: rgba(89, 159, 71, 1);
+    --tags: rgba(106, 153, 78, 1); /*tags*/
+    --header: rgba(56, 102, 65, 1); /*header*/
+    --ignored: rgba(188, 71, 73, 1); /*ignored*/
+    --green-salad: rgba(167, 201, 87, 1); /*favourite*/
+    --light-blue-sky: rgba(0, 193, 254, 1);
+    --frame-color: rgba(198, 220, 147, 1); /*main frame*/
+    --ingredients: rgba(242, 232, 207, 1); /*ingredients*/
+    --pitch-black: rgba(0, 0, 0, 1);
+    --light-gray: rgba(211, 211, 211, 1);
+    --white-lake: rgba(251, 247, 239, 1); /*main panels*/
+}
