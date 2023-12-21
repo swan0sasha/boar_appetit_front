@@ -9,10 +9,12 @@
 
 .top-recipe-container{
     width: 100vw;
-    height: 148px;
+    height: 100px;
     display: flex;
+    flex-shrink: 0;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
     background: var(--Darker-Carrot, #7A3108);
 }
 .input-search-recipes{
