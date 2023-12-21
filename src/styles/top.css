@@ -4,7 +4,7 @@
     height: 14.4vh;
     min-height: 58px;
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     align-items: center;
     background: var(--header);
 }
@@ -20,7 +20,9 @@
     background: var(--header);
 }
 .input-search-recipes{
-    margin: 0;
+    margin-left: 40px;
+    justify-self:first baseline;
+    /* margin: 0; */
     height: 52.8px;
     width: 48%;
     max-width: 930px;
@@ -28,7 +30,7 @@
     border-radius: 25px;
     border: 2px solid var(--asphalt);
     background: var(--white-lake);
-    font-family: Arial, serif;
+    font-family: Roboto, monospace;
     color: var(--asphalt);
     font-size: 20px;
     font-style: normal;
@@ -61,7 +63,6 @@
     line-height: normal;
     padding-left: 70px;
     display: flex;
-    align-items: center;
 }
 .suggest-button:active{
     border: 5px dashed var(--carrot);

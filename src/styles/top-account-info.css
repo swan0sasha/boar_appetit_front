@@ -1,7 +1,7 @@
 .main-user-info-container{
     height: 100%;
     display: flex;
-    justify-content: row;
+    align-items: center;
     margin-right: 28px;
 }
 .user-info-text-container{
@@ -12,7 +12,7 @@
 }
 .username-text{
     color: var(--Walter-White, #FFF);
-    font-family: Arial;
+    font-family: Roboto, monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -21,7 +21,7 @@
 }
 .login-to-text{
     color: var(--Walter-White, #FFF);
-    font-family: Arial;
+    font-family: Roboto, monospace;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

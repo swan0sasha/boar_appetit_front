@@ -1,0 +1,9 @@
+.central-flags-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+/* .flags-container{
+    width: 13vw;
+    padding: 0;
+} */

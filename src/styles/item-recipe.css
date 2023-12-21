@@ -1,0 +1,30 @@
+.recipe-container{
+    height: 200px;
+    width: 90%;
+    padding: 0;
+    margin-top: 20px;  
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.img-text-container{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.description-recipe-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+.text-name{
+    font-family: Roboto, monospace;
+    font-weight: bold;
+    font-size: 24px;
+}
+.description-text{
+    font-family: Roboto, monospace;
+    font-weight: normal;
+    margin: 0;
+    font-size: 16px;
+}

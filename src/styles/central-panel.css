@@ -6,15 +6,21 @@
     margin-top: 30px;
     margin-left: 17px;
     flex-direction: column;
+    padding-left: 24px;
 }
 .search-recipes-text{
     position: relative;
-    top: 24px;
-    left: 24px;
+    /* top: 24px; */
+    /* left: 24px; */
     color: #000;
-    font-family: Arial;
+    font-family: Roboto, monospace;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 40px;
+}
+.found-recipes-container{
+    display: flex;
+    flex-direction: column;
 }
