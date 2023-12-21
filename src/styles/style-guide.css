@@ -2,45 +2,14 @@
     --asphalt: rgba(62, 62, 62, 1);
     --carrot: rgba(215, 86, 13, 1);
     --celery-green: rgba(89, 159, 71, 1);
-    --cheesy: rgba(238, 228, 0, 1);
-    --darker-carrot: rgba(122, 49, 8, 1);
-    --el-diablo: rgba(170, 18, 18, 1);
-    --green-salad: rgba(22, 102, 2, 1);
-    --handsome-dude-font-family: "Inter-Light", Helvetica;
-    --handsome-dude-font-size: 24px;
-    --handsome-dude-font-style: normal;
-    --handsome-dude-font-weight: 300;
-    --handsome-dude-letter-spacing: 0px;
-    --handsome-dude-line-height: normal;
-    --header-1-font-family: "Inter-Bold", Helvetica;
-    --header-1-font-size: 32px;
-    --header-1-font-style: normal;
-    --header-1-font-weight: 700;
-    --header-1-letter-spacing: 0px;
-    --header-1-line-height: normal;
+    --tags: rgba(106, 153, 78, 1); /*tags*/
+    --header: rgba(56, 102, 65, 1); /*header*/
+    --ignored: rgba(188, 71, 73, 1); /*ignored*/
+    --green-salad: rgba(167, 201, 87, 1); /*favourite*/
     --light-blue-sky: rgba(0, 193, 254, 1);
-    --light-gray: rgba(197, 191, 191, 1);
-    --lighter-gray: #D9D9D9;
+    --frame-color: rgba(198, 220, 147, 1); /*main frame*/
+    --ingredients: rgba(242, 232, 207, 1); /*ingredients*/
     --pitch-black: rgba(0, 0, 0, 1);
-    --plain-text-font-family: "Inter-Regular", Helvetica;
-    --plain-text-font-size: 20px;
-    --plain-text-font-style: normal;
-    --plain-text-font-weight: 400;
-    --plain-text-letter-spacing: 0px;
-    --plain-text-line-height: normal;
-    --shy-guy-font-family: "Inter-Light", Helvetica;
-    --shy-guy-font-size: 16px;
-    --shy-guy-font-style: normal;
-    --shy-guy-font-weight: 300;
-    --shy-guy-letter-spacing: 0px;
-    --shy-guy-line-height: normal;
-    --small-text-font-family: "Inter-Regular", Helvetica;
-    --small-text-font-size: 16px;
-    --small-text-font-style: normal;
-    --small-text-font-weight: 400;
-    --small-text-letter-spacing: 0px;
-    --small-text-line-height: normal;
-    --variable-collection-asphalt: rgba(123, 120, 120, 1);
-    --variable-collection-carrot: rgba(188, 92, 3, 1);
-    --white-lake: rgba(255, 255, 255, 1);
+    --light-gray: rgba(211, 211, 211, 1);
+    --white-lake: rgba(251, 247, 239, 1); /*main panels*/
 }

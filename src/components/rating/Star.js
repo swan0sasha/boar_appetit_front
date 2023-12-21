@@ -6,6 +6,7 @@ function Star({ value }) {
     const {
         emptyColor,
         fillColor,
+        borderColor,
         height,
         hover,
         rating,
@@ -27,6 +28,8 @@ function Star({ value }) {
                 height={height}
                 viewBox="0 0 25 25"
                 width={width}
+                strokeWidth="1"
+                stroke={borderColor}
             >
                 <polygon
                     strokeWidth="0"

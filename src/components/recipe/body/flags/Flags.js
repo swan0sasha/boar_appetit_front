@@ -14,8 +14,8 @@ function Flags() {
 
     function circle(color) {
         return (
-            <svg className="tag-circle" width="10" height="11" viewBox="0 0 10 11" fill="none">
-                <ellipse cx="4.91178" cy="5.49104" rx="4.85294" ry="5.24551" fill={color}/>
+            <svg className="flag-circle" width="10" height="10" viewBox="0 -2 10 10" fill="none">
+                <ellipse cx="3" cy="3" rx="3" ry="3" fill={color}/>
             </svg>
         )
     }
@@ -32,11 +32,11 @@ function Flags() {
     return (
         <div className="flags-content">
             <h2 className="handsome-dude">Тэги</h2>
-            {tags.map((tag) => (label(tag, "black", "flag tag", "plain-text")))}
+            {tags.map((tag) => (label(tag, "var(--white-lake)", "flag tag", "plain-text white centered")))}
             <h2 className="handsome-dude">Избранные ингредиенты</h2>
-            {favourite_ingredients.map((ingredient) => (label(ingredient, "white", "flag favourite", "plain-text white")))}
+            {favourite_ingredients.map((ingredient) => (label(ingredient, "var(--white-lake)", "flag favourite", "plain-text white centered")))}
             <h2 className="handsome-dude">Исключенные ингредиенты</h2>
-            {ignored_ingredients.map((ingredient) => (label(ingredient, "white", "flag ignored", "plain-text white")))}
+            {ignored_ingredients.map((ingredient) => (label(ingredient, "var(--white-lake)", "flag ignored", "plain-text white centered")))}
         </div>
     )
 }

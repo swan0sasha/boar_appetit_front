@@ -5,7 +5,7 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    background: var(--darker-carrot);
+    background: var(--header);
 }
 
 .top-recipe-container{
@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    background: var(--darker-carrot);
+    background: var(--header);
 }
 .input-search-recipes{
     margin: 0;
@@ -36,7 +36,7 @@
     padding: 0 20px;
 }
 .input-search-recipes::placeholder{
-    color: var(--light-gray);
+    color: var(--frame-color);
 }
 .input-search-recipes:focus{
     border: 2px solid var(--light-blue-sky);

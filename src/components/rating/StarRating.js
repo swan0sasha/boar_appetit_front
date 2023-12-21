@@ -1,5 +1,6 @@
 import React, {useState, createContext} from "react";
 import PropTypes from "prop-types";
+import "../../styles/style-guide.css"
 
 import StarsList from "./StarsList";
 
@@ -9,6 +10,7 @@ export default function StarRating({
                                        defaultState,
                                        emptyColor,
                                        fillColor,
+                                       borderColor,
                                        height,
                                        maxValue,
                                        onChangeHover,
@@ -39,6 +41,7 @@ export default function StarRating({
                 value={{
                     emptyColor,
                     fillColor,
+                    borderColor,
                     height,
                     hover,
                     rating,
@@ -58,6 +61,7 @@ StarRating.propTypes = {
     defaultState: PropTypes.number,
     emptyColor: PropTypes.string,
     fillColor: PropTypes.string,
+    borderColor: PropTypes.string,
     height: PropTypes.number,
     maxValue: PropTypes.number,
     onChangeHover: PropTypes.func,
@@ -68,8 +72,9 @@ StarRating.propTypes = {
 
 StarRating.defaultProps = {
     defaultState: 0,
-    emptyColor: "grey",
-    fillColor: "#edaa10",
+    emptyColor: "var(--light-gray)",
+    fillColor: "var(--tags)",
+    borderColor: "black",
     height: 30,
     maxValue: 5,
     onChangeHover: () => {

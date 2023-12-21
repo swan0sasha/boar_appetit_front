@@ -22,7 +22,7 @@
     box-sizing: border-box;
     border-radius: 8px;
     border: 1px solid #000;
-    background: var(--lighter-gray);
+    background: var(--ingredients);
     padding: 2% 5%;
 }
 
@@ -48,7 +48,7 @@
     justify-items: center;
     border-radius: 8px;
     border: 1px solid #000;
-    background: var(--lighter-gray);
+    background: var(--ingredients);
     padding: 2% 5%;
 }
 

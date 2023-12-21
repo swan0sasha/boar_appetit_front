@@ -21,7 +21,7 @@ function IngredientsList() {
     return (
         <div className="ingredients-list">
             {Array.from(ingredients).map(([ingredient, count]) => (
-                <p className="plain-text">{ingredient} - {count}</p>
+                <p className="plain-text compressed">{ingredient} - {count}</p>
             ))}
         </div>
     )
