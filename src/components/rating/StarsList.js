@@ -8,7 +8,7 @@ function StarsList() {
     const { maxValue } = useContext(StarRatingContext);
 
     return (
-        <div className="star-rating">
+        <div className="star-list">
             {[...Array(maxValue)].map((star, index) => {
                 const value = index + 1;
 

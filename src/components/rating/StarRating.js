@@ -1,17 +1,15 @@
 import React, {useState, createContext} from "react";
 import PropTypes from "prop-types";
 
-import StarRatingLabel from "./StarRatingLabel";
 import StarsList from "./StarsList";
 
-export const StarRatingContext = createContext();
+export const StarRatingContext = createContext(undefined);
 
 export default function StarRating({
                                        defaultState,
                                        emptyColor,
                                        fillColor,
                                        height,
-                                       labelText,
                                        maxValue,
                                        onChangeHover,
                                        onChangeValue,
@@ -36,14 +34,13 @@ export default function StarRating({
     }
 
     return (
-        <>
+        <div className="star-rating">
             <StarRatingContext.Provider
                 value={{
                     emptyColor,
                     fillColor,
                     height,
                     hover,
-                    labelText,
                     rating,
                     setHover: setHoverFn,
                     setRating: setRatingFn,
@@ -51,12 +48,9 @@ export default function StarRating({
                     maxValue,
                 }}
             >
-                <>
-                    <StarRatingLabel/>
-                    <StarsList/>
-                </>
+                <StarsList/>
             </StarRatingContext.Provider>
-        </>
+        </div>
     );
 }
 
@@ -65,7 +59,6 @@ StarRating.propTypes = {
     emptyColor: PropTypes.string,
     fillColor: PropTypes.string,
     height: PropTypes.number,
-    labelText: PropTypes.func,
     maxValue: PropTypes.number,
     onChangeHover: PropTypes.func,
     onChangeValue: PropTypes.func,
@@ -78,7 +71,6 @@ StarRating.defaultProps = {
     emptyColor: "grey",
     fillColor: "#edaa10",
     height: 30,
-    labelText: (value) => `Оценить рецепт:`,
     maxValue: 5,
     onChangeHover: () => {
     },

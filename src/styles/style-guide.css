@@ -18,8 +18,9 @@
     --header-1-font-weight: 700;
     --header-1-letter-spacing: 0px;
     --header-1-line-height: normal;
-    --light-blue-sky: var(--variable-collection-light-blue-sky);
+    --light-blue-sky: rgba(0, 193, 254, 1);
     --light-gray: rgba(197, 191, 191, 1);
+    --lighter-gray: #D9D9D9;
     --pitch-black: rgba(0, 0, 0, 1);
     --plain-text-font-family: "Inter-Regular", Helvetica;
     --plain-text-font-size: 20px;
@@ -41,7 +42,5 @@
     --small-text-line-height: normal;
     --variable-collection-asphalt: rgba(123, 120, 120, 1);
     --variable-collection-carrot: rgba(188, 92, 3, 1);
-    --variable-collection-light-blue-sky: rgba(0, 193, 254, 1);
-    --variable-collection-walter-white: rgba(255, 255, 255, 1);
-    --white-lake: var(--variable-collection-walter-white);
+    --white-lake: rgba(255, 255, 255, 1);
 }

@@ -1,4 +1,4 @@
-import "../../styles/recipe/recipe-page-center.css"
+import "../../../../styles/recipe/recipe-page-center.css"
 function CookingSteps() {
     let steps = [
         "1. Яйца разделить на желтки и белки, взбить белок. Перемешать обычный творог, желтки, муку, сахар, соль и ванилин. Затем аккуратно вмешать в массу взбитый белок.",
@@ -10,10 +10,10 @@ function CookingSteps() {
         // "7"
     ]
     return (
-        <div className="recipe-body">
-            <h2>Инструкция приготовления:</h2>
+        <div className="recipe-bottom">
+            <h2 className="handsome-dude">Инструкция приготовления:</h2>
             {steps.map((step) => (
-                <p>{step}</p>
+                <p className="plain-text">{step}</p>
             ))}
         </div>
     )

@@ -35,8 +35,8 @@
     border-radius: 30px;
     border: none;
     background: transparent url('../../assets/flag.png') no-repeat left;
-    color: var(--Walter-White, #FFF);
-    font-family: Arial;
+    color: var(--white-lake);
+    font-family: Arial, serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
