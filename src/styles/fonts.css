@@ -1,0 +1,36 @@
+.header {
+    font-family: Roboto, monospace;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.handsome-dude {
+    font-family: Roboto, monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.plain-text {
+    font-family: Roboto, monospace;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.compressed{
+    margin: 2%;
+}

@@ -6,7 +6,6 @@ function TopAccountInfo() {
   const [usernameState, setUsernameState] = useState("");
   const [userIsAuthorizedState, setUserIsAuthorizedState] = useState(false);
   return (
-    <div>
         <div className='main-user-info-container'>
           <div className='user-info-text-container'>
             <div className='username-text'>{userIsAuthorizedState ? usernameState : 'Вы еще не вошли в аккаунт'}</div>
@@ -14,7 +13,6 @@ function TopAccountInfo() {
           </div>
           <DefaulLogoImg></DefaulLogoImg>          
         </div>
-    </div>
   )
 }
 
