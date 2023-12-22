@@ -21,7 +21,7 @@ function InputIngredients() {
         <div className="tags-input-container">
             { tags.map((tag, index) => (
                 <div className="tag-item" key={index}>
-                    <span className="text">{tag}</span>
+                    <span className="text shy-guy">{tag}</span>
                     <span className="close" onClick={() => removeTag(index)}>&times;</span>
                 </div>
             )) }

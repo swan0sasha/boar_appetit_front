@@ -11,7 +11,7 @@ function TopAccountInfo() {
             <div className='username-text'>{userIsAuthorizedState ? usernameState : 'Вы еще не вошли в аккаунт'}</div>
             <a className='login-to-text' href='#'>{userIsAuthorizedState ? 'Выйти из аккаунта' : 'Войти в аккаунт'}</a>
           </div>
-          <img className="logo-icon" src={DefaultLogoImg}/>
+          <img className="logo-icon" src={DefaultLogoImg} alt="user"/>
         </div>
   )
 }

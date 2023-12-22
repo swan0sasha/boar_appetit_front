@@ -1,5 +1,4 @@
 import React from 'react'
-import RecipeImage from "../../../../assets/dish-picture.png";
 import "../../../../styles/main-page/item-recipe.css"
 import clockImage from '../../../../assets/clock.png'
 

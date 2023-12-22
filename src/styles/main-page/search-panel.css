@@ -69,6 +69,13 @@
     font-weight: 400;
     margin-right: 8px;
 }
+
+.check-box-container-flex{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
 .check-box-container {
     display: block;
     position: relative;
@@ -118,9 +125,9 @@
     bottom: 4px;
     width: 14px;
     height: 28px;
-    border: var(--white-lake);
+    border: solid var(--white-lake);
     border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
+    /*-webkit-transform: rotate(45deg);*/
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
