@@ -3,11 +3,11 @@ import React from "react";
 
 function Flags() {
     let tags = [
-        "Посытнее"
+        "Десерт"
     ]
     let favourite_ingredients = [
         "Творог",
-        "Сгущеное молоко"
+        "Мука"
     ]
     let ignored_ingredients = [
         "Помидор"
@@ -34,7 +34,7 @@ function Flags() {
         <div className="flags-container">
             <div className="flags-panel">
                 <div className="flags-content">
-                    <h2 className="handsome-dude">Тэги</h2>
+                    <h2 className="handsome-dude">Теги</h2>
                     {tags.map((tag) => (label(tag, "var(--white-lake)", "flag tag", "plain-text white centered")))}
                     <h2 className="handsome-dude">Избранные ингредиенты</h2>
                     {favourite_ingredients.map((ingredient) => (label(ingredient, "var(--white-lake)", "flag favourite", "plain-text white centered")))}

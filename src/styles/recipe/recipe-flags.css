@@ -18,6 +18,10 @@
     margin: 0 0 5% 0;
 }
 
+/*.main-page-margin{*/
+/*    margin-top: 2%;*/
+/*}*/
+
 .tag{
     background-color: var(--tags);
 }

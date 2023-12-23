@@ -29,7 +29,7 @@
     box-sizing: border-box;
     /*border-radius: 32px;*/
     /*border: 3px solid var(--header);*/
-    /*padding: 2%;*/
+    padding-left: 2%;
 }
 
 .recipe-up {
@@ -56,6 +56,7 @@
 
 .flags-container {
     width: 15%;
+    margin-top: 4%;
     padding: 1% 1% 1% 0;
     display: flex;
     justify-content: start;

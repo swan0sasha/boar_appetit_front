@@ -7,8 +7,8 @@ function FoundRecipes({isClicked}) {
     <div className="found-recipes-container">
         {isClicked && (
         <>
-          <ItemRecipe item={1} />
           <ItemRecipe item={2} />
+          <ItemRecipe item={1} />
         </>
       )}
     </div>

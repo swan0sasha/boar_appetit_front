@@ -12,18 +12,16 @@
 
 .ingredients-panel {
     width: 100%;
-    /*height: 100%;*/
     height: max-content;
     display: flex;
     flex-direction: column;
-    /*flex-shrink: 0;*/
     justify-content: start;
-    /*align-items: stretch;*/
     box-sizing: border-box;
     border-radius: 8px;
     border: 1px solid #000;
     background: var(--ingredients);
     padding: 2% 5%;
+    margin-bottom: 2%;
 }
 
 .ingredients-panel-head {
@@ -43,12 +41,12 @@
 .portions-input{
     -webkit-appearance: none;
     -moz-appearance: textfield;
-    width: 15%;
+    width: 20%;
     box-sizing: border-box;
     justify-items: center;
     border-radius: 8px;
     border: 1px solid #000;
-    background: var(--ingredients);
+    background: var(--white-lake);
     padding: 2% 5%;
 }
 
@@ -70,4 +68,9 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
+}
+
+.recipe-tree-container{
+    display: flex;
+    justify-content: space-between;
 }

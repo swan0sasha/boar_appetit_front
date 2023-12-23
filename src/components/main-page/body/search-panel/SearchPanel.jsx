@@ -3,6 +3,7 @@ import "../../../../styles/main-page/search-panel.css"
 import InputIngredients from './InputIngredients';
 import TimeInput from './TimeInput';
 import Checkbox from './Checkbox';
+import SortingSelector from "./SortingSelector";
 
 function SearchPanel({onSearch}) {
     const handleButtonClick = () => {
@@ -27,6 +28,12 @@ function SearchPanel({onSearch}) {
                     <p className='search-panel-text'>Время готовки</p>
                 </div>
                 <TimeInput></TimeInput>
+            </div>
+            <div className='input-container'>
+                <div className="search-panel-text-container">
+                    <p className='search-panel-text'>Сортировать:</p>
+                </div>
+                <SortingSelector/>
             </div>
             <div className='search-button-container'>
                 <button className='search-button' onClick={handleButtonClick}>Найти рецепты</button>
