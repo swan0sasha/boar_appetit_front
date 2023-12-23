@@ -1,19 +1,22 @@
 import React, { useState } from 'react'
 import "../styles/InputIngredients.css"
 
-function InputIngredients() {
+function InputIngredients({ onChange }) {
     const [tags, setTags] = useState([])
 
     function handleKeyDown(e){
         if(e.key !== 'Enter') return
         const value = e.target.value
         if(!value.trim()) return
-        setTags([...tags, value])
-        e.target.value = ''
+        const updatedTags = [...tags, value];
+        setTags(updatedTags);
+        e.target.value = '';
+        onChange(updatedTags);
     }
 
     function removeTag(index){
         setTags(tags.filter((el, i) => i !== index))
+        onChange(tags);
     }
 
     return (

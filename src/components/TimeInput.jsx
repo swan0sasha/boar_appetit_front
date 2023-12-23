@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "../styles/time-input.css"
 
-function TimeInput() {
+function TimeInput({ onChange }) {
     const [hours, setHours] = useState('');
     const [minutes, setMinutes] = useState('');
   
@@ -9,6 +9,7 @@ function TimeInput() {
         const value = event.target.value;
         if (value >= 0) {
           setHours(value);
+          onChange(value, minutes);
         }
     };
   
@@ -16,6 +17,7 @@ function TimeInput() {
         const value = event.target.value;
         if (value >= 0) {
           setMinutes(value);
+          onChange(hours, value);
         }
     };
   

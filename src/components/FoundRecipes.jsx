@@ -2,15 +2,12 @@ import React from 'react'
 import ItemRecipe from './ItemRecipe'
 import "../styles/central-panel.css"
 
-function FoundRecipes({isClicked}) {
+function FoundRecipes({foundRecipesData}) {
   return (
     <div className="found-recipes-container">
-        {isClicked && (
-        <>
-          <ItemRecipe item={1} />
-          <ItemRecipe item={2} />
-        </>
-      )}
+        {foundRecipesData.map((recipeData, index) => (
+            <ItemRecipe recipeData={recipeData} key={index} />
+      ))}
     </div>
   )
 }
