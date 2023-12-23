@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import "../styles/InputIngredients.css"
+import "../../../../styles/main-page/InputIngredients.css"
+import "../../../../styles/fonts.css"
 
 function InputIngredients() {
     const [tags, setTags] = useState([])
@@ -20,11 +21,11 @@ function InputIngredients() {
         <div className="tags-input-container">
             { tags.map((tag, index) => (
                 <div className="tag-item" key={index}>
-                    <span className="text">{tag}</span>
+                    <span className="text shy-guy">{tag}</span>
                     <span className="close" onClick={() => removeTag(index)}>&times;</span>
                 </div>
             )) }
-            <input onKeyDown={handleKeyDown} type="text" className="tags-input" />
+            <input onKeyDown={handleKeyDown} type="text" className="tags-input shy-guy" />
         </div>
     )
 }

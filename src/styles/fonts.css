@@ -23,6 +23,14 @@
     line-height: normal;
 }
 
+.shy-guy {
+    font-family: Roboto, monospace;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
 .black {
     color: black;
 }

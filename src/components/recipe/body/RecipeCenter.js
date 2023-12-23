@@ -8,7 +8,6 @@ import Flags from "./flags/Flags";
 
 function RecipeCenter() {
 
-
     return (
         <div className="center-container">
             <div className="recipe-container">
@@ -20,11 +19,7 @@ function RecipeCenter() {
                     <CookingSteps/>
                 </div>
             </div>
-            <div className="flags-container">
-                <div className="flags-panel">
-                    <Flags/>
-                </div>
-            </div>
+            <Flags/>
         </div>
     )
 }

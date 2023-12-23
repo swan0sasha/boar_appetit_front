@@ -1,22 +1,19 @@
 import React from "react";
-import CentralPanel from "../components/CentralPanel";
-import Top from "../components/Top";
+import CentralPanel from "../components/main-page/body/CentralPanel";
+import Top from "../components/main-page/head/Top";
 import Flags from "../components/recipe/body/flags/Flags";
-import "../styles/main-page.css"
+import "../styles/main-page/main-page.css"
 
 function MainPage() {
     return (
-        <div>
+        <div className="page-container">
             <Top/>
-            <div className="central-flags-container">
+            <div className="main-central-container">
                 <CentralPanel/>
-                <div className="flags-container">
-                    <div className="flags-panel">
-                    <Flags/>
-                    </div>
-                </div>
+                <Flags/>
             </div>
-            </div>
+        </div>
     )
 }
+
 export {MainPage}

@@ -1,12 +1,13 @@
-import "../../../../styles/recipe/flags.css"
+import "../../../../styles/recipe/recipe-flags.css"
+import React from "react";
 
 function Flags() {
     let tags = [
-        "Посытнее"
+        "Десерт"
     ]
     let favourite_ingredients = [
         "Творог",
-        "Сгущеное молоко"
+        "Мука"
     ]
     let ignored_ingredients = [
         "Помидор"
@@ -30,13 +31,17 @@ function Flags() {
     }
 
     return (
-        <div className="flags-content">
-            <h2 className="handsome-dude">Тэги</h2>
-            {tags.map((tag) => (label(tag, "var(--white-lake)", "flag tag", "plain-text white centered")))}
-            <h2 className="handsome-dude">Избранные ингредиенты</h2>
-            {favourite_ingredients.map((ingredient) => (label(ingredient, "var(--white-lake)", "flag favourite", "plain-text white centered")))}
-            <h2 className="handsome-dude">Исключенные ингредиенты</h2>
-            {ignored_ingredients.map((ingredient) => (label(ingredient, "var(--white-lake)", "flag ignored", "plain-text white centered")))}
+        <div className="flags-container">
+            <div className="flags-panel">
+                <div className="flags-content">
+                    <h2 className="handsome-dude">Теги</h2>
+                    {tags.map((tag) => (label(tag, "var(--white-lake)", "flag tag", "plain-text white centered")))}
+                    <h2 className="handsome-dude">Избранные ингредиенты</h2>
+                    {favourite_ingredients.map((ingredient) => (label(ingredient, "var(--white-lake)", "flag favourite", "plain-text white centered")))}
+                    <h2 className="handsome-dude">Исключенные ингредиенты</h2>
+                    {ignored_ingredients.map((ingredient) => (label(ingredient, "var(--white-lake)", "flag ignored", "plain-text white centered")))}
+                </div>
+            </div>
         </div>
     )
 }

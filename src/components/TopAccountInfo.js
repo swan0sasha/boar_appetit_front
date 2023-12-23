@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {ReactComponent as DefaulLogoImg} from '../assets/default-account-logo.svg'
+import DefaultLogoImg from '../assets/account-logo.png'
 import '../styles/top-account-info.css'
 
 function TopAccountInfo() {
@@ -11,7 +11,7 @@ function TopAccountInfo() {
             <div className='username-text'>{userIsAuthorizedState ? usernameState : 'Вы еще не вошли в аккаунт'}</div>
             <a className='login-to-text' href='#'>{userIsAuthorizedState ? 'Выйти из аккаунта' : 'Войти в аккаунт'}</a>
           </div>
-          <DefaulLogoImg></DefaulLogoImg>          
+          <img className="logo-icon" src={DefaultLogoImg} alt="user"/>
         </div>
   )
 }
